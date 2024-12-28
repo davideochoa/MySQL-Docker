@@ -1,6 +1,6 @@
 services:
   - name: mysql
-    type: web_service
+    type: private_service
     env: docker
     dockerfilePath: ./Dockerfile # Ruta al Dockerfile de MySQL
     envVars:
